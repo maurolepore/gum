@@ -60,3 +60,7 @@ search <- yes |>
 search |> cat()
 ```
 
+## GUIs
+
+* https://www.linkedin.com/jobs/
+* On Google's search bar type "jobs"
