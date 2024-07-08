@@ -18,8 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of gum is to make it easy to create search queries, e.g. to search for
-jobs on LinkedIn or Google Jobs.
+The goal of gum is to make it easy to create search queries, e.g. to search at https://www.linkedin.com/jobs/.
 
 ## Installation
 
@@ -59,8 +58,3 @@ search <- yes |>
   gum_and(and)
 search |> cat()
 ```
-
-## GUIs
-
-* https://www.linkedin.com/jobs/
-* On Google's search bar type "jobs"

@@ -7,7 +7,7 @@
 <!-- badges: end -->
 
 The goal of gum is to make it easy to create search queries, e.g. to
-search for jobs on LinkedIn or Google Jobs.
+search at <https://www.linkedin.com/jobs/>.
 
 ## Installation
 
@@ -60,8 +60,3 @@ search <- yes |>
 search |> cat()
 #> ("R" OR "R/Pyton" OR "Pyton/R") NOT ("R&D" OR "R/D") AND ("developer" OR "package developer" OR "developer" OR "software developer" OR "engineer" OR "software engineer" OR "programmer" OR "data scientist" OR "analyst")
 ```
-
-## GUIs
-
-- <https://www.linkedin.com/jobs/>
-- On Google’s search bar type “jobs”
